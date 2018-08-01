@@ -8,6 +8,12 @@ import 'package:myfirst/align_demo.dart';
 import 'package:myfirst/bottom_navigation_widget.dart';
 import 'package:myfirst/list_demo.dart';
 import 'package:myfirst/pages/second_page.dart';
+import 'package:myfirst/http_demo.dart';
+import 'package:myfirst/read_and_write.dart';
+import 'package:myfirst/actionview_ecology.dart';
+import 'package:myfirst/scrollable_tabs_demo.dart';
+import 'package:myfirst/input_demo.dart';
+import 'package:myfirst/input_demo2.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -35,7 +41,12 @@ class MyApp extends StatelessWidget {
         //home:new PosiitonDemo()
         //  home: new AlignDemo());
         // home: new BottomNavigationWidget()
-        home: new ListDemo(),
+        //home: new ListDemo(),
+      //  home:new HttpDemo(),
+   //   home:new  ReadAndWriteDemo()
+  // home:new ActionViewEcology()
+ // home:new ScrollableTabsDemo()
+ home:new InputDemo2()
     );
   }
 }
